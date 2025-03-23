@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpbmdtaWRkbGV3YXJlIiwiaWQiOiI2NzhiNTdjYjY3YWI4ODljOTMwOWRhMTYiLCJpYXQiOjE3MzcxODUyNjh9.D0CcTJcsVuWC1uMrwCMGoIjfMWtNS0qmY8L4n-NJHEk
+
+{
+  "title": "testBlog1000",
+  "author": "testingmiddleware",
+  "url": "url123",
+  "likes": 100,
+  "userId": "678b57cb67ab889c9309da16"
+}
